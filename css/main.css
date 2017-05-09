@@ -1,0 +1,67 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h4 {
+  font-weight: 300;
+}
+
+h4 {
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  color: green;
+}
+
+p {
+  color: #777;
+  font-size: 20px;
+}
+
+img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+hr {
+  border-bottom: 3px solid #a0522d;
+}
+
+article .img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  color: #ee7600;
+  font-size: 80px;
+  margin: 0 0 0 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .logo {
+    font-size: 60px;
+  }
+}
